@@ -1,0 +1,11 @@
+[package]
+name = "elf"
+version = "0.1.0"
+authors = ["Minkyu Jung <hestati@kaist.ac.kr>"]
+edition = "2018"
+
+[dependencies]
+bitflags = "1.2.1"
+
+[dependencies.assert-size-proc-macro]
+path="./assert-size-proc-macro"

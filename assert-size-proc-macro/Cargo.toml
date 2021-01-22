@@ -1,0 +1,15 @@
+[package]
+name = "assert-size-proc-macro"
+version = "0.1.0"
+authors = ["Minkyu Jung <hestati@kaist.ac.kr>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0"
+syn = { version = "1.0.34", features = ["full", "fold"] }
+
+[build-dependencies]
+proc-macro2 = "1.0"
